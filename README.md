@@ -1,3 +1,3 @@
 # Java
 ## Curso Java
-São diversoss tópicos sobre **Programação Orientada Objeto**
+São diversos tópicos sobre **Programação Orientada Objeto**
