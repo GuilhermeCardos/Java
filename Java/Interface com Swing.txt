@@ -1,0 +1,24 @@
+package teste;
+
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String nome;
+		int idade;
+		float peso, altura;
+		
+		nome  = JOptionPane.showInputDialog("Digite O Seu nome: ");
+		idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a sua Idade: "));
+		peso = Float.parseFloat(JOptionPane.showInputDialog("Digite o seu Peso:  "));
+		altura =Float.parseFloat(JOptionPane.showInputDialog("Digite a sua Altura"));
+		
+		
+		System.out.println("Srª :"+nome);
+		System.out.println("Idade: "+idade);
+		System.out.println("Peso: "+peso);
+		System.out.println("Altura: "+altura);
+	}
+
+}
